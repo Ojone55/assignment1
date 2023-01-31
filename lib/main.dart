@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-import 'home.dart';
+import 'features/data/quote_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: QuotePage(),
     );
   }
 }
