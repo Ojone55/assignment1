@@ -10,7 +10,7 @@ class Home extends StatefulWidget{
   }
 
 class _HomeState  extends State<Home>{
-  List <String> moltivation =[
+  List<String> moltivation =[
     '“You can get everything in life you want if you will just help enough other people get what they want.” —Zig Ziglar',
     '“Do not settle for average. Bring your best to the moment. Then, whether it fails or succeeds, at least you know you gave all you had.” —Angela Bassett',
     '“Inspiration does exist, but it must find you working.” —Pablo Picasso',
@@ -40,7 +40,7 @@ class _HomeState  extends State<Home>{
         body:SafeArea(
             child: Column(
               children: [
-                SizedBox(height:200),
+                SizedBox(height:50),
 
                 Container(
                   height:120,
